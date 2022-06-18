@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>Icon.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>ca.arentz.stefan.LaunchBarAction.GitHubRepositories</string>
+	<key>CFBundleName</key>
+	<string>GitHub Repositories</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Stefan Arentz</string>
+		<key>LBEmail</key>
+		<string>stefan@arentz.ca</string>
+		<key>LBSummary</key>
+		<string>Quickly search for and navigate to your own GitHub repositories.</string>
+		<key>LBTwitter</key>
+		<string>@satefan</string>
+		<key>LBWebsiteURL</key>
+        <string>https://github.com/st3fan/LaunchBarActions</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+            </array>
+                <key>LBKeepWindowActive</key>
+			<true/>
+            <key>RequiresArgument</key>
+            <true/>
+			<key>LBResultType</key>
+            <string>unknown</string>
+            <key>LBReturnsResult</key>
+            <true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+        </dict>
+        <key>LBSuggestionsScript</key>
+        <dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+            <true/>
+            <key>LBRunInBackground</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>suggestions.js</string>
+        </dict>
+	</dict>
+</dict>
+</plist>
