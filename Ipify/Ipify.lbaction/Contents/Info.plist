@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>ca.arentz.stefan.LaunchBarAction.Ipify</string>
+	<key>CFBundleName</key>
+	<string>Ipify</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Stefan Arentz</string>
+		<key>LBEmail</key>
+		<string>stefan@arentz.ca</string>
+		<key>LBSummary</key>
+		<string>Show your external IP addresses (IPv4 &amp; IPv6).</string>
+		<key>LBTwitter</key>
+		<string>@satefan</string>
+		<key>LBWebsiteURL</key>
+        <string>https://github.com/st3fan/LaunchBarActions</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+            <key>RequiresArgument</key>
+            <false/>
+            <key>LBKeepWindowActive</key>
+			<true/>
+            <key>LBReturnsResult</key>
+            <true/>
+			<key>LBResultType</key>
+            <string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+        </dict>
+	</dict>
+</dict>
+</plist>
